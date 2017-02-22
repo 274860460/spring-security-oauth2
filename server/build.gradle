@@ -1,0 +1,9 @@
+group 'com.iselin'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-jdbc')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('mysql:mysql-connector-java')
+}
+
