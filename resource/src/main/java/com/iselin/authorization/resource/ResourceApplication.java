@@ -33,7 +33,6 @@ public class ResourceApplication {
 
     public static void main(String[] args) {
 
-        SecurityContextHolder.getContext().getAuthentication().getName();
         SpringApplication.run(ResourceApplication.class, args);
     }
 }
